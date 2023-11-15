@@ -1,5 +1,6 @@
 
-
+const Participants = require('../src/Participants.js');
+const SHA256 = require('crypto-js/sha256');
 
 class ProofOfAuthority {
     constructor(block) { 

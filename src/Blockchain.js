@@ -1,8 +1,7 @@
 const Block = require('./Block.js');
 const Transaction = require('./Transaction.js');
 
-// const ProofOfWork = require('../consensus/proof-of-work.js');
-// const ProofOfStake = require('../consensus/proof-of-stake.js');
+
 const ProofOfAuthority = require('../consensus/proof-of-authority.js');
 
 class Blockchain {
